@@ -10,13 +10,19 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import './assets/stylesheets/main.css.scss';
+body {
+  background-color: $base-blue;  
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: $white;
   margin-top: 60px;
+}
+.pointer {
+  cursor: pointer;
 }
 </style>
